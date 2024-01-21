@@ -56,9 +56,6 @@ gdk_public_sources = files([
   'gdktoplevellayout.c',
   'gdktoplevelsize.c',
   'gdktoplevel.c',
-  'loaders/gdkpng.c',
-  'loaders/gdktiff.c',
-  'loaders/gdkjpeg.c',
 ])
 
 gdk_public_headers = files([
@@ -208,9 +205,6 @@ gdk_deps = [
   platform_gio_dep,
   pangocairo_dep,
   vulkan_dep,
-  png_dep,
-  tiff_dep,
-  jpeg_dep,
 ]
 
 if profiler_enabled

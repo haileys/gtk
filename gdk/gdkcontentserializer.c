@@ -26,9 +26,6 @@
 #include "filetransferportalprivate.h"
 #include "gdktextureprivate.h"
 #include "gdkrgba.h"
-#include "loaders/gdkpngprivate.h"
-#include "loaders/gdktiffprivate.h"
-#include "loaders/gdkjpegprivate.h"
 #include "gdkmemorytextureprivate.h"
 #include "gdkprivate.h"
 
